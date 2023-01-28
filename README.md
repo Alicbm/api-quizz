@@ -19,9 +19,9 @@ You can click on any category to see the API for that category:
 - CSS
 
 ## How to use it? :brain:
-###GET:
+### GET:
 
-- ###All results: 
+- ### All results: 
 
 **Main url** : `api-quizz.vercel.app/api/v1` 
 
@@ -38,7 +38,7 @@ With this url you have access to all the categories and all the questions, in to
 6. [api-quizz.vercel.app/api/v1/html](https://api-quizz.vercel.app/api/v1/html "api-quizz.vercel.app/api/v1/html")
 7. [api-quizz.vercel.app/api/v1/css](https://api-quizz.vercel.app/api/v1/css "api-quizz.vercel.app/api/v1/css")
 
-- ###Specific results:
+- ### Specific results:
 
 To get a specific result you need to be in a specific category and type the "id" you want to get.
 
@@ -48,7 +48,7 @@ To get a specific result you need to be in a specific category and type the "id"
 
 1. [api-quizz.vercel.app/api/v1/animals/5](https://api-quizz.vercel.app/api/v1/animals/5 "api-quizz.vercel.app/api/v1/animals/5")
 
-- ###Query parameters:
+- ### Query parameters:
 
 In this API there is an option to choose the amount of results you want to get, through the parameter "size", to use this parameter you must be in a specific category, here is the main url for this:
 
@@ -58,7 +58,7 @@ In this API there is an option to choose the amount of results you want to get, 
 1. [api-quizz.vercel.app/api/v1/animals?size=4](https://api-quizz.vercel.app/api/v1/animals?size=4 "api-quizz.vercel.app/api/v1/animals?size=4")
 
 
-###POST:
+### POST:
 
 To use this method you must be in a specific category
 
@@ -96,7 +96,7 @@ Another option that you have is to create new questions, through the POST method
 			}
 	}
 
-###PATCH:
+### PATCH:
 
 To use this method you must be in a specific category
 
@@ -114,7 +114,7 @@ Another option that you have is to update questions, through the PATCH method. Y
 	}
 
 
-###DELETE:
+### DELETE:
 
 To delete a question, you only need the id of the question you want to delete, that id would go after the category where it will be deleted.
 
