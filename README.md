@@ -76,7 +76,7 @@ Another option that you have is to create new questions, through the POST method
 `api-quizz.vercel.app/api/v1/animals/`
 
 	{
-		"id": 16,
+		  "id": 16,
 			"ask": "Questions number 16",
 			"optionA": {
 				"text": "option one",
@@ -107,7 +107,7 @@ Another option that you have is to update questions, through the PATCH method. Y
 ###### Example:
 
 	{
-		"optionA": {
+		  "optionA": {
 				"text": "option A modified",
 				"replay": false
 			}
