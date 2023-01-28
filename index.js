@@ -29,7 +29,7 @@ app.use(express.json());
 
 app.use(cors());
 
-app.get('//api/v1', (req, res) => {
+app.get('/api/v1', (req, res) => {
   res.json(info)
 })
 
