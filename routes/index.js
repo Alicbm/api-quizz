@@ -1,8 +1,8 @@
 const express = require('express');
 
 const generalCultureRouter = require('./generalCulture.router')
+const javascriptRouter = require('./javascript.router')
 const animalsRouter = require('./animals.router')
-const javascriptRouter = require('./css.router')
 const citiesRouter = require('./cities.router')
 const sportsRouter = require('./sport.router')
 const htmlRouter = require('./html.router')
