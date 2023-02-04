@@ -1,5 +1,5 @@
 const express = require('express');
-const JavascriptServices = require('../services/js.services');
+const JavascriptServices = require('../services/javascript.services');
 
 const validatorHandler = require('../middlewares/validator.handler');
 const
